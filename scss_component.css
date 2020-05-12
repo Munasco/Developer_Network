@@ -161,7 +161,7 @@
 
 .container {
   max-width: 1100px;
-  margin: auto;
+  margin: 0 auto;
   overflow: hidden;
   padding: 0 2rem;
   position: static;
@@ -596,6 +596,7 @@ img {
 
   .profile-grid {
     grid-template-areas: "top" "about" "exp" "edu" "github";
+    margin-left: -0.5rem;
   }
 
   .profile-about .skills {
